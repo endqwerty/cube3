@@ -1,0 +1,6 @@
+[submodule "cube3-frontend"]
+	path = cube3-frontend
+	url = git@github.com:endqwerty/cube3-frontend.git
+[submodule "cube3-backend"]
+	path = cube3-backend
+	url = git@github.com:endqwerty/cube3-backend.git
