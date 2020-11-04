@@ -1,0 +1,26 @@
+{
+  "name": "cube3",
+  "version": "1.0.0",
+  "description": "Split into 2 sub-modules. The frontend and backend. This repo contains references to both and allows CI to ensure compatibility through integration tests.",
+  "main": "index.js",
+  "scripts": {
+    "install-submodules": "npx submodules-install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/endqwerty/cube3.git"
+  },
+  "submodules": [
+    "cube3-frontend",
+    "cube3-backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/endqwerty/cube3/issues"
+  },
+  "homepage": "https://github.com/endqwerty/cube3#readme",
+  "dependencies": {
+    "submodules-install": "^1.0.1"
+  }
+}
